@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background:rgb(31, 31, 31);
+    font-family: 'Oswald', sans-serif;
+}
+
+.user{
+    width: auto;
+    height: 700px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+}
+
+.user input[type="text"], .user input[type="password"]{
+    background-color: rgb(255, 255, 255);
+    width: 280px;
+    height: 40px;
+    font-size: 25px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.button1{
+    background-color: rgb(31, 147, 241);
+    color: rgb(255, 255, 255);
+    width: 300px;
+    height: 45px;
+    margin-top: 2%;
+    border: none;
+    border-radius: 8px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.button1:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(29, 182, 243);
+}
