@@ -38,9 +38,11 @@ body{
     border-radius: 8px;
     font-size: 25px;
     cursor: pointer;
+    transition: all 1s;
 }
 
 .button1:hover{
     background-color: rgb(255, 255, 255);
     color: rgb(29, 182, 243);
+    transition: all 1.5s;
 }
